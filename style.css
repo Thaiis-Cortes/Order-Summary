@@ -1,0 +1,130 @@
+*{ margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+
+}  
+
+body{ 
+    height: 100%;
+    width: 100vw;
+    background-image: url(img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(182, 182, 245);
+
+}
+
+
+.content{ height: 70vh;
+          width: 23%;
+          position: absolute;
+          margin: 6% 36%;
+          background-color: rgb(231, 235, 245);
+          border-radius: 15px;
+          border: solid 0.9 gray;
+   
+   
+}
+
+
+.imgbox{ 
+        height: 30%;
+        width: 100%;
+        border-radius: 15px 
+
+        }
+
+
+
+.music {height: 22vh;
+        width: 100%;
+        border-radius: 15px 15px 0  0;}    
+
+
+.textbox{
+    margin-top: 30px;
+    text-align: center;
+    
+}    
+
+
+h2{ color: #020239;
+}
+
+p{  
+     color: rgb(88, 87, 87);
+     font-weight: 400;
+     margin-top: 12px;
+     
+}
+
+.planbox{
+    background-color: rgb(202, 215, 249);
+    margin: 20px;
+    border-radius: 10px;
+    height: 60px;
+    justify-content: space-between;
+
+
+}
+
+.icon-music{ 
+    display: flex;
+    padding: 4px;
+   
+    
+}
+
+h4{
+    
+    width: 67%;
+    font-size: 15px;
+    position: absolute;
+    padding: 4px;
+    margin: -53px 29px;
+
+
+ }
+    
+
+.price{ 
+   
+    margin: -30px 
+
+
+}
+
+a{color: grey;
+margin: 200px;
+color: #020239;
+text-decoration: underline;
+cursor: pointer;
+}
+    
+     
+.payment{
+    background-color: #1e1fcd;
+    color: #fff;
+    height: 34px;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+    
+    
+}
+
+.cancel{  background-color: #86868d;
+    color: #fff;
+    height: 34px;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+
+}
